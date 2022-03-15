@@ -4,9 +4,9 @@ import { MemeForm } from "./components/MemeForm/MemeForm";
 
 export const MemeApp = () => {
   return (
-    <div>
+    <>
       <Header />
       <MemeForm />
-    </div>
+    </>
   );
 };
